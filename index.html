@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css" 
+    integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+        <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="nav-item" href="#"><i class="bi bi-telephone mx-1"></i><span>+91-1234567890</span></a>&nbsp;&nbsp;&nbsp;
+                <a class="nav-item" href="#"><i class="bi bi-envelope mx-1"></i><span>example@gmail.com</span></a>&nbsp;&nbsp;&nbsp;
+                <a class="nav-item" href="#"><i class="bi bi-clock mx-1"></i><span>Mon - Sat 9:00 - 6:00</span></a>&nbsp;&nbsp;&nbsp;
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>-->
+        <!--Main Header-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><span class="text-warning"><h3>ZRB</h3></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#aboutus">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#redclay">Why Red clay</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#whyus">Why us</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link active" href="#testimonals">our testimonals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact">Contact</a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </nav>
+    <!--Corousels-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://codeglamour.com/html/18/brickconstruction/images/about_client.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container my-5" id="aboutus">
+        <h1 class="text-center font">ABOUT US</h1><hr class="about"/>
+        <div class="row g-2">
+            <div class="col-md-8 mt-4">
+                <h2 class="font">
+                    WHO WE ARE<hr class="new">
+                </h2>
+                <p>
+                    Our Bricks has been a tag name in the marketplace to manufacture and to simultaneously distribute Red Clay Bricks. Since the year of our inception, we bring a rich legacy of producing and selling our own product to the entire region of Karimnagar-Telangana.
+               </p>
+                <p>
+                    We received a huge demand from the market, which has enabled us to conceive and manufacture the light-weighted bricks which immaculately fulfils the demands of the customers. We are often preferred in the marketplace to have all the products in-stock and ready to be pulled out from the inventory for seamless shipping across the state without any physical hassles.
+                </p>
+                <a href="#" class="btn btn-warning font"><h4>CONTACT US</h4></a>
+            </div>
+            <div class="col-md-4 m-auto mt-5">
+                <img class="w-100" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgVFBUZGRgaGx0bGxsbHBsdGxwdHBobGxsaGxobIS0kGyEqIhkaJTclKi4xNDQ0GiM6PzozPi0zNDEBCwsLEA8QHxISHzMqJCo2MzMzNTMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM//AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAECBwj/xABJEAACAQIEAgcDCAYJAgcBAAABAhEAAwQSITEFQQYTIlFhcYEykaEUQpKxwdHh8CNSYnKCsgcVM0NTosLS8SSzFiVEY3OT4jT/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAoEQACAgICAQQBBAMAAAAAAAAAAQIRAyESMUEEEyJRMmFxgZEUQsH/2gAMAwEAAhEDEQA/AFGOwIzQlt51icu8T30HfwrgdpGEeK7yI+dRvEMSFnOH2MRcYtMfveNRYOy1yGM5SQMjM0yYImZ7xUXE7uQALRIliQvPU7VpAAgUqCQWk89TAHpFNMZw4iS6pC/taeWope9sHOCEkNEk6iC2gHdtStaArsW3VGugH58qItxB0WNDBOmgG2mu9adFjdBp4ffWPdynZToNxp7K7Caz6NVMhvBQYBTv0jnXVttGOYbb8vaH3VtO0NWUeh7ye+ukjXtRtrB725elY1GWHhozCDpMHv33qVgJ0ad9cpEdlu/eo7jeJ+j94rdhpmSefIfqttpS/qO+qJUxJAiT9E/dRDurWyS7Fv1csLuOeX7aDW2x2D/CpradlpzT4xEaUjSHt1QU7r/iPPkNDzHs7ViXRuWOgjYCeXdSfE4ghyvkfeAftqa3cHMGPOioCvJ4BeJvognm/wDoqDh2ZcTZuA6JctsdddHBPwFTcVUQpUbE+O8d/lQaPppVo6RyzVs+hVXWsdKjwtzMqPEZlDe8A0Q3KpBsQY8660tuhdY3phxH2jQCtpp76Nk2BFD7t/r+2obiDuo284/O1CqhP6o8K1mBZnYfn1rvIBpzPr/xRQs6EnlXS2IExFazCy+k7D4VwynLAB93202yaaf81EyRvNGwCnqCORrEsjmQPd9tNlsTqSQO6fzFdLZA2o2ATXFCgAAH3fE1AlvXvJp/1Y5x8K11AO4HuFazCu3h6mFteZA91EthyTpPp99cDCGToQd9N/X1rWAFv3EUd87UsvXS2+3IAQB5Dv8AGrF8kHztfPX/AJrTYW3+qJrJoxWo8/hWVY+rXwrKPIwjw2HhhmyMZ3LnTnoMscu+isNl7RIt6vHbOuuUA7bD76rWGxxBAAQ8ttvGj8HxBkdgCoBOpKkneeRFUtF+h1iFtqMwayIkwI1MbbjvpUjyzwyjtHcTzOu9EPjDIbrFJEkDIee/zjQeAvHtwSAWOyk8hzig0NeyRzCSbgk7gLtp50Kb2VjB7hOUk7D3US7d7OCYzdg7xt7ND2e07lswM8h7500pWNe0RM3i30fwqRAp5mIB213flFcuhJ7OYjloJOn/ADUbDLOaRoN9/abu86UNhZtAjXN7hUuFQKVzBoJIMnkFO0HxNB28UO8/H76K+VBsoEyCx18U8/A0jTKJqyA3HBiSPCT99G4Dh9+4YRdDuWYADmJk+FB42388aiT6GdjR/BOIG2w7ufiKNC3sA6R8Pa04Y89Dty227xQuHeRV247w8XbWZddJ/PjVAtyjFTuK0OqYJrdryMcWua2fL4ikdt6aDFRpS1LUsQO+niSktnu/Rq9nweGc7mzbnzCAH4g01RtdfGq30LvTgbI/VDL9G4wHwin1t9T5Gl8k2V3GXJdh3T8KCW2SsKdKIxCHtT+ZNYvhS2KCOkVpEMnz07qIMnT7zUqCOQJ5TtP3VgkSqNNNRvOmvr76mCMdyselELheelbey3eTQtABntiNwRXAsiJO3Id/n3URk8JqIBp2/OtazED2zvPpyrlcOToV/DzmilQGZG1d25Hs+k/hWs1AzYMr2jAjl/xXS2oGsd+lF9SzakyfzyqVcKdOVawULmQ/NE+mnvNaFkxTVMIOQJ8dh56ATUqYUch61rNQk+RkjWTWLw7wgeO3407OFOkAeorpLUcvz5VuRqEXyJf2j6GsqwdWe+srcjUeBW37QPjRTYmG0MbfUK5fA3ATKkFRmIMAhf1o3jxqRuHXCouZSEOUZ9As6LudtdNavZYnXFHvbny/Cu8BfIEBmGvIA/Eipl6O4oa9W23Mp99ccL4XduqHtoWXaQQNYB5mdiPfWsPknZwdzcJMToImBzioLIln0YnMdoHv1ph/U91SiOsM5hRnOrASRoe4Upv27i5gpIIZg0NB0aD560LGTCbRHJX8NdtP3qjaGuAPMSAZMmIY7zQ1u3cbTNHmx+ym3COB3L9x7SMhdFDSWOUyIgEjftDfxoNBUkT3uH2kUOqFl7yxIPuimlpcM1/AhbK2w1xhc1Yhx2AJzMe9tu+ktzAXsOzW7ilCdwwJU+Ij2hykU3tIty9w4KuUuzyJH/txz0O+hoxaYsrRN0z6NGwWvWAWst7a7m3PPxTx3HxpEmGBTrLZlQNRzXwNehYrFNavJh3k5wSAdwBp7qrXGeA9TcN2yDkP9pbUxA5lY+bzjl5bJKk6QYSclsO4DezWllhtzqr9JOGjrCyHQ93xFWTg/Abd22Lq3SitPZLLIgwZPpPrTE9FrQ1+UCZ5sPvqbbu0VTjVSZ5g3D3HefdUfUx316oOj9kf+pX6S/fQ13o1hT7WIT6SD7aZTfkEuHhm/wCjy/OEK/qXGHoVRv8AUatDP2WPhHv0pPwPh1qyHS1dDgtmOqkgxHzfLupu65VM6yR9potnLLsVMUOjFvh91QC0Rry9ZimDoDrFcdSBtJ8NDSWBIjtoBvoNp5eU1q/A23oxLBAJOg7vurg2CeXvoBoBNy5HZEeJ/Come4ZGlORh+7T6vdWlwpmSfz3+NazULrGEuESzx4R+T+fcWmDY8/z6VzxLidnDobl1mCiAWCOwBJgahSN6JwWIW7bR0JKuoZTB1BEgxyreLCLsdwSy6kOzEkcmbTxgmPhQ3R6xbtWssSQ9ySABmKuyA6+CgelMOK31sWmuNGmwjTMdFkjYEnU0l6HviLlt86whYsjGNc5LMI5AEz/FFbwCix9dzGnnFSBiTtp3/hWJhY33qdbBO2nnQs1HaLP410zkcx+fWtDC+Jra2AOdYBGb+nf5AmuDbZuZHurq9jLdvV3Uev2c6r9zpxhjcNq2WZxIPZYAEbiWAplFvoFj75Ae+squN0p8B9L8KyjxZjzfFY1y9wkyTayE+BLGjL3FB8i6gqZlYae66G1HLTShsMwBxE6A4dxy7mK7+IFaxOIs/JmDAdaChQggQM4LZhOpieVVK0j0fDcYsXbbZXE5W0Jg7dx1qmcA6TJhLK22tFy3bkMFiVCxsZ9mZ8a2uBw5BAxNsfoy4LOhEx7IKkGfAiheGIrqqsoJyKfmT7E7sQPSdaXlXY0YKWkw3G9LUuXLVwWCOrctGcHNKxE5dPjXPBMVlui8UJDNcOURPaJka6GJ5713j8GqvZVAjFwCMgAPaEhW3UNoRGaueH4hrSQFBIdwVZe52BE7Tyig5KS0PCHFuwS1et9kXEyFSczAEsy6mMpIWRpEED66P4Dl+WP1dwhYGVhmE9gEyCARsd+6nHDuGYfGJ7D2mOsr2kPL2TI90Uk/8O3hiL9nD9t7RQyIUkFAdAzcs2wM6UybXYGovo9GxOMU2WGLth7YEkkagfrCNQfEVSOkXRxbd3CnCMzriA721+cCuQwGkT7Wmx050oxfFcbaV7FzrEDoUZHBggiJAcSD+0PfRPD+L3w2BAEmwtwWuzJ1IzD9qIHlRbT/AHESktLoIOPxBxVu5dzM9pSkXAZ5mGGhnXc+Hq1xPFr2ftMgQ65sh7OvsuCdO7MNDzynQz467isSc1yzLDY9XDDv1C7eHfUR4ZfYj9CQJ1/Rxpz1AHImpNMvHjVgGI4QjuxIBO5hI89J0qPE8HtQIgHcwswOfzvH4U3wnCcQqlRbfKJC7nT5syDoPqro4DExBtGI7vwpWmVTi1uhBf4Oi8zr4CdP4vChX4eAdviv31Zl4TfJ7Vr3CD+fvoV+C4if7PyBMfaKKbA+BJ0EQLdcRoU8OTCPrNWXpBjRh06xhmDPEeh89opJ0ewF23iFL22ClWBbcDSRsTzHxo7pjaa6iJbBaGLHw0IG/mfdWb0c8oxc/wBBc/Ssn2bMjvzEf6aGudM1T2rUHxf/APFCrwe8BHVlpGpGUD41I/R24yw9qR3djw50qb8lnjx+Gv7DsN0sRz2bYOnJ5jffs6UevSVdJtn6R/20lwPRy5bmLQX+JNfjUycMuJJIVQddXtj625Ukm71Y8MeKldf2NG6SAkfowZ/aIj3prXVzpIAY6vlr2iI/yVXHSGEMmk6B7bkA7eyT41LZbtQFBPOI5eHLf40spSRWODHLpDtukStvZza82+PsUSnHxIUWo7obbuEZfP3VX1gcoltRGsxMfb5VIHOcdk7bQJ/Jge40jm2OvSw+h8vHRr+iJ9TrJgfN79Kn/roD+7MczJ0/y1X2QEkxG0gjU8vjtRKkSJBG3IeRnTu08zS+5Iz9Nj+hyvG1Mwh0EzqPP5tbvcagA5DPdPv5cqAL7xp3yN9ttPT1oS7bTKOWmxOvKJ1G2s0VkehH6aG9E2N6TOk/oyPNhVb4l01ugRkj11+qjsbhgJ2Gn53PL7qqPGcEV/EV0YppvZz5vTqKuJziOklxzrPvrlcUzbnTWOcSST5SSffSYoQabWLI0k116RwNEvqayjFwg7mP8LfdWULNQsyx8o/+A/zEc6E/qcvbvXpOW0UDR+22VfjQty7fhzrqsPovszPdprzFGX7NzI+UNkJGaNjsRI56j4Ueh7UglOjAKkpdDkWzcIUTlyiSGmIqThjBwitEZFAmI0BPM67mpF4xigJW2FItm2SqEShWCWmQdBvXHB8Q1rJcRQSFjtCRDJlMiRyY0k3a2VxqpaHR4SEKAyC8FCJXU6gj76EwOHuG2rqASjvqQCS2czLSG5VxieJKTZKtcHVhQS7ZoIEdgH2RqSFrVnGBsMyKzZne4wMgBszHLI2Vp1kd/hUqVFnLY/4Xxi5hbSWrlu4FSYdGgmSx9lwBz5NS3BcaufLnvW7hBcxmYASBbAhhJA9nv5U66PYi91eGt9o5yttnzSUJuFZie17Q0/ZrnC9GLl7iONtLcQtaNs5mBWcyLtAbLvB3qsYs55Sjb8EmK6S4l1KXCrodw1u3cX+Uik9niGXFYVsqhUa4wVeyO3lmI217qd4roHjVMqqsf2HWfe5T6qpt7FRft5mDFC4M6wQQCCT60zROLPYsDxi1cVh21IGu+niGU0biXRVBS27ksBo0ZQd3bMRIG5Ak9wNeYWsaxDKIAIhoMqddJkn66cYTi93RWuN3bqwPjp+FQlOn0Wjiclpnoa2kK6sRE8jEAnn5UswL2ntqy3C4M6kmdzII8NvSqXguluJKKSVg9ZMCPZmPefrrLvH7g2dRzIEDXnQlkp1QY4W1dl1vJb7z6A0oi2ASMzdppmW1BIjU6bbVVL3G7hgtcKqZkiT3xEDwFKbvEbgzst7QtqASDtExHhvWUr8DPE1qz1fh4HVjKNNfDme+vP8A+lS0W6gAay/1Crl0PuF8FaZiWJDSTue21Vj+lBXC2igUx1hbNGwCzE+dUj2QkvB5/YwcA7ajly8qlCRA09RNKi9wqWnQc4Hh4eI99bwju7ZRJJ2AEkmdgANTVaFSDrtuZmI8hXBtADYfCp7rBBlaQ/NY1BBggjlsa4NzScvdv4g0jLxpaHfRhBmbQxA29asioZ00HiD9+8z8KrfR68YzAxI5eDMB9VPXYMee3j79e/7K4si+R6OF/BBqWu8rv4z9f5FTZO0JiBrOv1z5R60EkzMmc2p8hHd4Bamva7gz66/8fbU+OynN0TuAdvZ5nXNqeWvKdPGiY1Bj3zHPfWPxihbWHnMQpO3odCfOJn1qRSDGXtehHjHwJ/hFbj9C8/snvXiGgLOkmQY5aCD4GfSsv+yIg6Adrflvr7600yRlzaHfSNtPWPhQlxoA0nTx1mPdNaMQSZ1iTJ0g6bHbWfHfv9KUY+2HWGA3iefpJ/ImmjmSdJ0218fr+yh7qAqYA3Ouvf3fCnjGjN3o8+4lY6t/z99WHC4y4o7JRP3Lag+8iaUdIbUXNudMMN+NegvxR5GRfNjH5fcP9/c+mfvrKi6zwrKFCFaxa5VuvOjJlEb+1Ovvoq7xFPk1yybZZ36vK5aMnVsSQFgyCNNxsK3xK0OrvSNgY08QPSp7GAW5au3FZEyKhKutvM5OechbXTLy7xQi9FZKg49IrYtlbma+OpZAX0a2xQABTJBUHwnxFLOA8RS0UZ5yhIIUwTKZR8YPpXL27Zywi2f+nYln6si4Qg1QEbsdueulR8IRCbHWFba5DLkAgwLkEgg8wE1HKtLcTQdSCcRimuX7dwXFfJbVT2csEHZh8+J1bnU+DC9XqAW624JCqbbDNspMxrJjuIotwiohKLaJs28gWG68giSSElCw19dzQFm7lTKTlIvXZtx2F7Udlo3+b5AaUl3EotMu2Gy272HVFCqLtswoga3F5CjOjd7/AM44ke/qv5FpTauTfsn/ANy3/wBxaN6Mt/5vxE+Fv+UVaHRys9Et3+2K8tbBLcucNtsinPcxwaQDPbMT3xvXpFtu2I7vtrzzhmZcZw1JOl7H77+3Tt3QEuyp8GsMUaI7J1ptbfLHfUHCbZUsCBBbfkNwTFNOI4JVPYcPoDIVxrJ0hgD3H1rlaTO2E/BUfloQRbuDLLD528yfm+NDvjXJ9sfH7qtvRG1wu6tm3fts9woSyqbulwsGJhTABU98aHau+mHAcEjg2LbWwEEqzPMydYZjpBFUljpXVnP7qRWUvkouoO/1nnvUFzmdKluWghyjQCNJNRMRHf76RI6OVxR650EP/Q2f4/52qr/0wL+jw/77/wAq1Z+gh/6G1/H/ADvVZ/pgP6PD/vv/ACrRj+RzSPKzTfokYxtkn9cfbSq4wnszHjB+oCieEXCLyEbg1WSuLBDUkOOltlVxT5DAbtQZJlmYtsNpmKExEEdmQs6AmSBBiTGulb43ixcul4OwGsToW7vzpXWIw5W2jEiHGYQZIgssMPmmRt3EUnhFY9sacC9ga8v9bU7zAGII8/ifs9KQ8E9lfXfT5zU4Vjm1+2Nvq099cuRfI9DHKopB1u58DvpGxHfy286OslcwkT5GOe/pPxpcuEu5M4tOV9qQj5csbzGojWa7t3ToeX55fX6VOSY6kmN8Qgz9kiNPSDP41K6ezImfA+7bwn+Glpuc4GsfXz008fCKNS/LDaJA0+Eae/wBpb2BrRvEDX07u+NNuf2UHiSTzzSO6JmNPX4UxxDDXY9k+zE8t9N+7yNA3QCu6zB257SBpv3VSJNsgdJJ0zacvXw5x8Kx9RO++2nPbb0qQgSdJ02G/OeXPl5GtXU05b8tvq35ecUQplQ6RpmcGaltJljXTKag6U3e2oED0/Cp8BZdhORmEESASJ8xXZB/FHn5l82bU1ldMp5rFbrE6K6l1Ws3soOwmf3Xp3hhhRYvdfbZ7pVRayoSEAzZizTAmV91KsDwtzbuKQwzARHMiRB7hDGnuEdbVu6BbLPcUKxZRlWJPZOYEeoNK5RWrLcJNXQjulgF6yLo6ghFGQdWMgyzofZ95it8Fds9gJFxurMI0wv9p2dNdu35tXdqyWYhYtjq2DNpJGXWZ0E7etccMw6k2cwJGTUJJfZiNBB5j0otpxFjFqWxiryhyuSBaXP1k6QRKW8zAeUaaUBbP6MKrQBeeLZAzqJjMT/lj9k05OFFu2rOtt+sswmZkQ2jmEEiCWffuOpoDCqWQrbOf9NcYHKxZhmIDF9tY2IG80iWmO3stGHQ9ZaP7dv+daI6N3T/AFpjzqCRb0H7q1LZTS2x0gofcRNcdGbiDimPadItx9FadMglZfLTnrI7vvrznD4sW8Xwy5dZUHW4xnYsAi5ipMs0aSYkxV8XGWy5MwQpJ8hXnPTG3h2uYK1euEW5vm4UIDKjFMpGbQTl59xp+VUv3DxtP+BguPwhZ/09pQHYKS6ywJJkCYGuYTtt6Q4niFgtK37bCJP6RCe7XteVUrj3CrKMnye6HTKSWZi2s6AQgnTuB1nWh8JwkuCFcMSsdhLjmQyk7Ad1RWJJ3bDB8W2i3NiLdhEbCPhBmKoQWts4UwpZiWLLAHtE6ad9KMbh7cDM2FJgTlNpmmAZYjVjqJJnXNUFrgCdWzZ7geD7Vu5DdgNCgJAPMS2wqO3wC4Ac1u+eyYAtMpnKxHfpp9fdVfHk1JvpHb3F71/hKx8DQ+ZddjXb8Lupa6wpcCECGNohddB2y3OY251JZ4bdZ3y22nOVAgZieYCzJOh27qWvspzpHqvQJh8htH/5P+49Vb+l6+rW8PlMw7z6oKf9EXKYJLeR5XP7S5dc7kggEx9vwqp9NibiK7DMr3AVAmVHVq2p2k5vqqal8jncrdHnbPUuBeHkUxXB2j80ioL2FVfYJn410ckNxaMvtLTPcfiaMuRkB7/uNAMugLA900fcjqx6fUaSRSHka8FgoJ218/aaj719F+dA/On576SYK9ltjTTXn+01D4y/NQ4XI6fcUYl84ZjcXdtxaa69texC+zAWMsd2UiomwV0GOpu//W/u22+4UV/Rlih8mdCdVuZ/RgAP5DT6z0utMSuRgykggxuO49xpvYlJ1FWc0/WRxK3SK8uAvt/dXZ00KHL6k+4+FTHD3U3tvoYMISBBIMZfHQ+BNWTh3Si3cuvaZCrLBGshgVDA+G8elbxvEls3GYnsvDx3T2SPHVSfWudxSnxfY8PWOSTW0yrnFGdbd3+G2/hvRPUuyg5HHZMjKRGg5EyCI09aJt9N7Nx2t9U0gkAgiGAOhExHlReE6SWzfSw9sqXUMpkEalhB+jXRL08ox5NaJf58XPj5+hNeKiSTpl5RPOefu8zVdxXG7k6LCRMd47zroefhpVs6Q8KNlc4fsnNEDUQdAddT2vrqvXMA5w4usgZXY9oEaQGXtdqSBEbbnxqUKZ0Tm3G4srHSG/mZTESJG23fpTHhPFbiDLbuMonUCIk6c/Kl+PwrLCnVCJXmezAIB5GBtROGTZVAGVvOY5+MyffXSvxpHJOUm7YbdvBiWcyx1J01NZWrluSewPWspqFtnV7iLEaD7fwoRLd26CLasxntZRoN9yNBWcE4gqXVa4i3FB2bUe41e7HSVCri3ZhT7OsD4CK5uCieg8kpdHluGw7m5ettOYK4g7yrqSAP4T7qsPC+F22tW3LMGyKDEg6KARp9lE2OFOb73tBnLmBOmeeZ86nFoWVVOsgARpE/fRlmXSFjgk1ctC7EYa3b1yHzYH6zS7hmP6u33S7ny7fKt8Rxi9YUCsSR7TaaEaabmh8K4W3OQNDvGYxz7tz5TVIu1tEZQSbSdll6McbS43VOjs7NlVlAIieyXGaYE6mBA1k7U04GlpeIY7OSyjq/7PUGFWZc6KAdySBOlUfE8SuFcufKh3ROyp81X2v4iad/0e8Uw1u/efElAuVcheMuYHkIiYmqJJvQlOK2egYrpxgMMhVQWubFEAZp/af2B7z615d0s6VPjbiE20ti2GC5dWMxJZjv7I2ArfT/AB1m5jWuWLiXFuKjMVMw47BHhoin1qu4G2LlxVdwgYwWIkKI3I50WhYtdklk5g2pJkGT7t/UVauD376W1VLqoqFwB2TBch2O2s5hzMRR9vg9m1h+yD2ge388giAw8ATIERIB8aFxOKe5JjLPhBoSfEaC5/sQu13q8pxAI321/s4y6CIy6bUTg8VclXOK1BYQRoYLqDoO6ffUGGTM4t9YqTqWcwFHf4nuHPymrpw1MIigdfbgcy4k8ySe/WtG5I0+MXRQ+I3rhslTiWdZHZ1A3EcuX2UHaxt5Q6JcIRmJbLpmJ5sQJPka9SbD4Rv7619NaEu4HCaxfsD+JaLiLyvwC9E7t3qLZGeELEmezcGZhliDEeMbVF04tK1uwLhCA5iCoMKQoA0AOYQAI02meVEZwtu5asXA+VGYC20mIkkBdd2jzqp5LrJ+kFwsXMLcLD6AeAPIVHh8rEcd2IruGhiFYsvIkZSfSTHvrS2DNO14fdba0R+9A+uul4VcBEga9xqthEht+E+Fc4pIVY2n7DoaYYnAXAdRUJw7RWex4yoFVh1Y8/voO+1ML+EbKMsHXbQR6Gg3wtwjb4itFDymqLF0PvIgcXGVesRFVipYIVZjmlSCNGI09TT7AdHrj32S3ctu2QXM4JCspOWNyJkcqpOGxPVhVddIGo3B+0Vdug+PW3da4SSptlezG5ZSNyOQI9aX3JY5X0Lkwwyxa7/QseG6LXBeW8xUFUyEBjrBJBnL3Eg+QrfSLo/iL1tOrCZ1kHtHVTrAkAEg95G5pt/X9vuc/R/3Vn9fIB7L/wCX/dUZyxznzb2Sx+nlCKjFOkUbg3Qa8Lha46BgZC9oH17P1TVgxnQ97ly1cDIrWwATmbUAlgB2e9jTO70gVspCPoZ+ZtH71d/1/wB1tz9D/dV36pOPBtUI/Rvnzp2D8e4TfvYZrYyG4INvUxmGh1K6SpIqj8O4firdxkxdtkUKzAuoCEhGP9oCVIGVToavx6REH+yue9Y/mofivHRcsXLZBXPbuJqc2WbbksVUSYjYVBRxpVFnVBZI9rR5nibVsvK4ixlj/FtzOWJ37yfT0hdhXKObbaMpKn95TB156ioE4MgPZxCkAFtbV9dFBY6lI2BojE3rVxLtwasXZg+maMxIBkSBHKuiKp0SlVDq2+grKRWscYGtZTiFtt8Ps2xMKCOZ1b0J1qLE8TVB2LZczzMaaSdfOkuI4nbGgJY+G3qefw8qAfGFuQjuiuCOGUncj1J51FVEd3uMXGG8eCHT6VC2s7nW5l8E1P0j9lKjcNbUtpXSoRitHLzlJ72dY+z1eIGXwOpncRrO9TWkWHnWHaPU/hXVnh7MczGPz8KPTh5YkKsjcnxpeaultjrG6t6Qixr2gNEzHvJIA9x1qTgPB1xF17TEgBBcEeOWBr+/XXSrBraCANmYlsw5AQPto/oljkt4tnIbKcOi6DUkC34jQ5TV4Kns55teDXFOiPVPaUXGKOzKJ+bcy5l20hspE+ArE4HaweJwrXXFxWxF1XUwV6u0yKJB3zFn8CAKt+N4rgb4KXld1kEAhh2hz7Jkbn41WuI4LAXL2DXCWwFe+bdwQ/a/s4UyxJEMfZ7zudqyS8EotkXGsXZuXSbVm1bSdAqqvqYFR4BoLpbUElhlGkAFF7RjlTjjvR/CWSItqDuQREmYAGpmOfLlymhcB1dsEqgSdz36fH7Y5VKULeykJ8Voiu8It+08sx7yZPuOn/NH4Do3buCTmX3/AFTUAvF2kDOBtA1qw4TEEqFhRvJkfbSyddFIK9sHborh43f3x9W1A4novZGgzk+DfCmdy+dBr4wRPOT4d9QM89oyZ1JManzqVsvxj9G+ivCb1prz4QlHyqJuEEHVuWU+PvpuycQu5VxnUugbMQIg6ECAF3EzM0T0VbsOQNyo9wJ+2nN5qrFWtnHk1J0JbGBRJ7Kj0FT/ACRDpA91dXY5VylwCmokAYnhKEnQUsu9HwdtKsjXedac6UKGRVH6Mkgaion6I3Dsy/GrdmgVH8rXvrJmZUH6FXztkOn6xH2VLa6D3TbKsyprI1mdD+r51bFxI/WFEWsSDpM1m15MrXRRX/o8uf4y/wCaoL/Q2/hV61Ly6MgbSQFZ1UsQwggZsx8q9IEGosbhBdtvbb2XRkP8SkfbTfFguS8lXurfw4m/YV0G9yyuYDxe3GZfMZh5UVY4ur25tpnQgjMjDu5RzpxwbGi5Ztu+jlBnA1hwIcSO5gaV9JOEWRbvYmzmtXrdt3z2+yHKKWAdYyuDESRPjXPPFB9OmdOPLL/ZWLejeHxRxD9aXVUSQhuO2bQdqCW1jtETz8KfXsjXrV5pzWs4AAADC4ADP0RSrh3CcYzowxrhXshy4tWx2mjsa7jKZnwo49Fb0f8A91z/AOu2Psre1ke4tB93GvyTHSYuy/7J/aEfHahMZgbLTKIfQUixPALq/wDrbx/hQf6areA4vet3Lxa5cuojdWmbvX2zoI30HlXZjc1+dHHNQf42Ww8Cwx/uk9wrKq3/AIrf9QfH76yq84icZFRRKLtWTp9Q3phgeEO+rdhfifIcvWn+Gwtu0OyAO9jqx9eVeXPOlpdnrY/TN7ekJ8NwZzq/ZH+b3cvWmuG4QNlX1P2mixdT2idBzOgpXxLpUFlLABP652H7o5+Z086EITluWkGeXHDUFb+w/iGCS0s3LyqOShSWY9w1k+6kTcWPs25RfPtfXp+daTXcQ9xizsWY7k6n8+FbUV0RjGK0czlKT2zjiz5yvhXfDrhDz+wB7q31JYgATTjgvRu5ibmS2PF3OiIvMsfso8gcNCjF4i5cDC2GKqpZyAdFG5MbLqNfGpeCYgKmFMHs4svAMaZLY5agnKdfAVaukGKs2MJcweCgow/TXiBmusCNAeSDlH3lqZw1AVTwuA92nP6qboRb6L5jsRbuks2YvOkjsqPAT8PDxpJicDcuE5YA2USfedNz4bU5bDryn6TffUnDbYN5RPfpJMwNT74oSyLpmjjlTa8AnDeA3U17J9T6nanCcNuxAyD1NO8sCuc4mlezKbXQiTg16ZIT6X17Vn9U39NEgGR2h608e+KGGKrcUH3JBPAsObNplYAEsToZ0hRv6GprmJoVcTJ3obFN3GimJLbslu39aha+DQb3p7vGomu91GxaGS3/ABrXyrlQCzXeb30LDQV1pNLeJI260YlY6zQCJ0utl0JmpcHirinf31Pdwo1g+lCrhTWMNsNj7hOpEUXexWZSCSNNxvP20ns2DUrWyKy7BRVcTh8Vg7jXbbyGJLblHJ/XXk3jv405sdKLeIsXrbQl02rgyGO12G9hvneW9N80gq2oO4ImlWI6I2Lnahl5wDpRlBSGjkcSwcIvk2LBn+5t/wAi0yt8TK6Ez5n7YqkjoXb/AMW54DNt4bV2Og1vncc/xUkfTyjK0x3ni400WbpBxa2mGuXFPbCwi8y7dlAO/tEUvwfAuqw6WtCVXtneXOrn6RNDcP6IYe063CHYqQwlzlkGQSBvBAPpVqRprtjdbOSbV6Kdc6PoSexWVc4WspuKF5M86fiIXbtN38vz5UuxXFwNWOZu4cvupFdxhOi6Dv5/hUArz4Yox2j0Z5pT0+g3E497ntHs8lG341Aik1pEolIFO5UJGBtLYGpojDWmuNCj8K1hMKbh7hzNWHA4QQAIVRqzHu5yedRlJ3S2zpjBVylpHXB+DG4+S3p/iXDsi8zPvgfiaY8d6SWrdv5JgtLQ0d/nXTz1/V+vy3Rca4/nTqLHZtfOPO4fH9nw5/Ckc1eEVFb2/Jz5JubpaXgLxWKBQjvoTDJAH701irJ1oi1bJZQN5oSfk0Ilkw92QJO/OlmA4qVxbNEwGRBMADvPnqfdXGPxQTKinUak0rsn9JmqMFfyf8FpOvgv5Lw/H25oPpn/AG1COOMTGQan9bv/AIar7X5ruzdygt3QB5sco+v4U8pNImscWy0NijUHXHehbmKTbOvvFcnEJ+uvvFOQoZ2Lpmsxd7xoOxdHIgjwrd95oGZnWa710LkUPHjWFoogCxiRWziJ50IG9K0xNYwel/xrtMRQKGu1esYM62eVaV/CoOsqRXrBCUcGuqBL691SrdrGJ80VIl8VBnBqNn1plIVxGXXVgvUu6+K0cVTpk6Gwumpbd7xpMuK91EW74OlUTFaHPWCspf1v50rKexDyDIPGu1tCsrK4rZ6nBEoWi8JgC4LseyDHiecDurVZU8jaRTHFNjTB3RsAAqmNqX8T4qXGRdEH+bxPh4fkarKOOKQmeTbUfAAjVIrVlZVWSQQtG5urt5+ZGnl+J+qtVlRy/wDS2Ht/sKDcLGSdTRNusrKoyMSYNXOOaLaL+s2Y+Q0ArKykfaKLpkSPpWmesrKZ9ilh4Wf0aeIPxY0W5rVZRXRGfZyK2GrKyiKazVgasrKxjvP3VguGsrKxjZuV0LmtZWVjHbPNc56ysrGNi5XXWzvWVlYJz11aFysrKZCs7Bom29arKqiTCc9ZWVlOKf/Z" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-warning py-5 p-3 mt-5" id="redclay">
+        <div class="container py-3 bg-white">
+            <h2 class="font text-center">Why <span class="text-danger">Red Clay</span> Brick</h2>
+            <p class="mx-5">
+                The red clay bricks have been considered to be one of the most ancient inventions ever made, which predominantly used clay as a primary raw material to build a brick. The clay bricks were often considered to be a genuine brick as most of the ancient structures ever built have become the testimony in the current context.
+            </p>
+            <p class="mx-5">
+                On the contrary, the red clay bricks have been used for all the traditional type of buildings and structures which are now evident and found around the world.
+            </p><hr class="reason"/>
+
+            <h2 class="font text-center pt-3">The <span class="text-danger">Red Clay</span> Brick Structure</h2>
+            <p class="mx-5">
+                Structurally, these red clay bricks are hand-made ones and made exclusively with clay. The clay was made to get moulded in a mould and then subjected them to fire blasting in kilns in order for the clay bricks to retain the hard structure in them, which helps in bringing the tensile strength to the structures hence constructed.
+            </p><hr class="reason"/>
+
+            <h2 class="font text-center pt-3">Benifits for customers from the <span class="text-danger">Red Clay</span> brick </h2>
+            <p class="mx-5">
+                Red clay brick has been getting used for most of the building materials such as external/internal walls, flooring, arches in both residential and commercial buildings.
+            </p>
+            <ul type="none" class="mx-5">
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">As compared to most sidings such as timber, composites, steel, the brick never rot, never fades, never peels, melts, warps or dents past the construction.</span>
+                </li>
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">As a matter of fact, the brick’s thermal mass makes it more ideal to become an insulator than compared to other sidings. </span>
+                </li>
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">Last but not the least, the bricks reduces the cost of heating and cooling in the wall sidings.</span>
+                </li>
+            </ul><hr class="reason"/>
+
+            <h2 class="font text-center pt-3">Attributes in the <span class="text-danger">Red Clay</span> brick which stand unique</h2>
+            <p class="mx-5">Over the years of red clay brick manufacturing, the bricks hence manufactured and distributed come with unmatched quality to the customer. The bricks are known to possess the following attributes:</p>
+            <ul type="none" class="mx-4">
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">Comprehensive waterproofing during the construction.</span>
+                </li>
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">Ability to withstand high temperature & also the moisture to a great extent</span>
+                </li>
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">The bricks have the ability to absorb less water and instead provide more strength</span>
+                </li>
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">Better endurance against rain and subsequently the sunshine</span>
+                </li>
+                <li>
+                    <i class="bi bi-bricks"></i><span class="mx-2">Bricks when subjected to plastering, holds the building structure for a lifetime</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="py-3 bg-light" id="whyus">
+        <div class="container my-5">
+            <h1 class="text-center font" id="aboutus">OUR FEATURES</h1><hr class="about"/>
+            <h4 class="text-center mt-2 font">Quality is our weakness</h4>
+            <div class="row g-2">
+                <div class="col-md-5 mt-5 whyusimg">
+                    <fighure>
+                        <img class="w-100" src="https://www.vulcanconstruction.co.uk/wp-content/uploads/2018/08/bricks1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="w-100 mt-3" src="https://img.freepik.com/premium-photo/safety-team-helmet-engineering-construction-worker-equipment-construction-site-pile-bricks_33850-446.jpg?w=2000" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-7 whyus">
+                    <h2 class="font mt-4 mx-4">WHY CHOOSE US</h2><hr class="new mx-4"/>
+                    <p class="mx-4">
+                        In today’s modern world, customers are more quality consciousness when it comes to building construction and the type of bricks being used for the same. In this transition, the clay bricks have become one of the preferred choices by customers as it is known for long-life structure sustenance.
+                    </p>
+                    <div class="mx-4 pt-3" style="display: flex";>
+                        <i class="bi bi-tools" style="float:left"></i><span class="mx-3" style="float:right"><h3 class="font">10+ YEARS OF EXPERIENCE</h3>Our Bricks have come a long way in terms of red clay brick manufacturing, as these bricks are perfectly moulded to suit the customer’s specific requirements when constructing the building structures. </span>
+                    </div>
+                    <div class="mx-4 pt-3" style="display: flex";>
+                        <i class="bi bi-hand-thumbs-up" style="float:left"></i><span class="mx-3" style="float:right"><h3 class="font">OUR PRODUCTION UNIT SETS HALLMARK</h3>The red clay bricks are manufactured with utmost care and hence supplied and distributed to the customer with finest quality. The production unit engages highly skilled and dedicated workforce in order to get the best perfection without any possibilities of defect after manufacturing. </span>
+                    </div>
+                    <div class="mx-4 pt-3" style="display: flex";>
+                        <i class="bi bi-patch-check" style="float:left"></i><span class="mx-3" style="float:right"><h3 class="font">THE QUALITY SPEAKS VOLUME</h3>The company is always committed to ensure that the customers select a quality product from us specifically when they are made to select the right kind of brick and become part of the ordering process from us. The company has been surviving and retaining good customer service and quality of the product. Needless to say of course the timely delivery of our products for various construction sites.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-warning py-5 p-3 mt-5" id="testimonals">
+        <div class="container py-3 ">
+            
+            <h2 class="font text-center pt-3">Our testimony is to exceed customer expectations</h2>
+            <p class="mx-5">
+                Our Bricks have always maintained high-business values and ethics when it comes to dealing with a customer and in the process, we have always ensured that we exceed the expectations of the customer in all the possible ways.
+            </p>
+
+            <div id="testimonals" class="carousel slide carousel-dark">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonals" data-bs-slide-to="0" class="active visually-hidden" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonals" data-bs-slide-to="1" class="visually-hidden" aria-label="Slide 2"></button> 
+                    <button type="button" data-bs-target="#testimonals" data-bs-slide-to="2" class="visually-hidden" aria-label="Slide 3"></button>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonals-title">
+                            <i class="bi bi-quote" style="font-size: 35px;"></i>
+                            <h2 class="fw-bold display-5">What our customers say</h2>
+                        </div>
+                        <button class="carousel-control-prev test-prev" type="button" data-bs-target="#testimonals" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next test-next" type="button" data-bs-target="#testimonals" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <div class="card">
+                                    <div class="img-wrapper"><img src="" class="d-block w-100 h-100" alt=""></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                                   
+                                    
+                                <div class="card my-2">
+                                    <div class="img-wrapper"><img src="" class="d-block w-100 h-100" alt=""></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <div class="img-wrapper"><img src="" class="d-block w-100 h-100" alt=""></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                                <div class="card my-2">
+                                    <div class="img-wrapper"><img src="" class="d-block w-100 h-100" alt=""></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>     
+                            <div class="carousel-item">        
+                                <div class="card my-2">
+                                    <div class="img-wrapper"><img src="" class="d-block w-100 h-100" alt=""></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper"><img src="" class="d-block w-100 h-100" alt=""></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+</html>

@@ -1,0 +1,109 @@
+nav, .font
+{
+    font-family:Goudy Old Style;
+}
+nav
+{
+    background-color: #05071A;
+}
+.container a i
+{
+    color:darkgoldenrod;
+}
+a
+{
+    text-decoration: none;
+    color:whitesmoke
+}
+.socialmedia ul li a i
+{
+    color:aliceblue;
+}
+div ul li a
+{
+    text-transform: uppercase;
+}
+
+.about
+{
+    border-top: 4px solid rgb(255, 153, 0);
+    margin:auto;
+    width:10%;
+    
+}
+.new
+{
+    border-top: 2px solid black;
+    width:15%
+}
+.reason
+{
+    border-top: 4px solid rgb(255, 153, 0);
+}
+.whyus i
+{
+    color: #fc7303;
+    font-size: 1.5rem;
+    outline-style: solid;
+    padding:1.5%;
+    height: 15%;
+}
+.whyusimg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi-bricks
+{
+    color: #ec1313;
+}
+.testimonals
+{
+    padding: 3em 2em;
+}
+.test-prev,
+.test-next
+{
+    background-color: #fff;
+    width:3em;
+    height:3em;
+    border-radius: 50%;
+    top:60%;
+    transform:translateY(-50%);
+}
+ 
+.carousel-item .card
+{
+    width:75%;
+    align-items: center;
+    margin:auto;
+}
+@media (min-width:576px)
+{
+    .test-prev,
+    .test-next
+    {
+        left: -1.5em;
+    } 
+    .test-next
+    {
+        left: 18.5em;
+    } 
+}
+@media (min-width: 768px)
+{
+    .test-prev,
+    .test-next
+    {
+        opacity: 1;
+        position: absolute;
+        left: 1em;
+        top:75%;
+        transform:translateY(-50%);
+    }  
+    .test-next
+    {
+        left: 5em;
+    }  
+}
